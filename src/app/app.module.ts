@@ -7,6 +7,7 @@ import { NavBarComponentComponent } from './nav-bar-component/nav-bar-component.
 import { ProductsComponentComponent } from './products-component/products-component.component';
 import { AddProductComponentComponent } from './products-component/add-product-component/add-product-component.component';
 import { NotFoundComponentComponent } from './not-found-component/not-found-component.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,9 @@ import { NotFoundComponentComponent } from './not-found-component/not-found-comp
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
